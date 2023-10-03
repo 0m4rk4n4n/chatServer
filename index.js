@@ -1,6 +1,6 @@
 const io=require("socket.io")(7832,
     {
-        cors:{origin:"http://localhost:3000"}
+        cors:{origin:"https://buyandsell-148k.onrender.com:7832"}
     })
     let users=[]
     let targetUser=[]
