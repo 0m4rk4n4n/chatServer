@@ -1,4 +1,4 @@
-const io=require("socket.io")(48752,
+const io=require("socket.io")(5020,
     {
         cors:{origin:"http://buyandsell-e7tw.onrender.com"},
         methods: ["GET", "POST"]
