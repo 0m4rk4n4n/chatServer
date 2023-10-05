@@ -1,4 +1,4 @@
-const io=require("socket.io")(5020,
+const io=require("socket.io")(process.env.PORT,
     {
         cors:{origin:"https://buyandsell-e7tw.onrender.com"},
         methods: ["GET", "POST"]
@@ -48,3 +48,4 @@ const io=require("socket.io")(5020,
             io.emit("getUsers",users)
         })
     })
+console.log(process.env.PORT)
