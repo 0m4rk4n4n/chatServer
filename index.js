@@ -1,12 +1,3 @@
-const http = require('http');
-const server = http.createServer((req, res) => {});
-server.listen(PORT, () => {
-    const address = server.address().address;
-    const port = server.address().port;
-    console.log(`Server is running at http://${address}:${port}`);
-});
-
-
 const io=require("socket.io")(process.env.PORT,
     {
         cors:{origin:"https://buyandsell-e7tw.onrender.com"},
