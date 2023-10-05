@@ -1,6 +1,6 @@
 const io=require("socket.io")(5020,
     {
-        cors:{origin:"http://buyandsell-e7tw.onrender.com"},
+        cors:{origin:"https://buyandsell-e7tw.onrender.com"},
         methods: ["GET", "POST"]
     })
     let users=[]
